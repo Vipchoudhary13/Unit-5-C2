@@ -20,7 +20,7 @@ export const Game = () => {
 
     useEffect(() =>{
         getData()
-    }, [page]);
+    }, []);
 
     async function getData () {
         await fetch(`http://localhost:3001/games?_page=${page}&_limit=2)`)
