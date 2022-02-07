@@ -1,5 +1,10 @@
+import { Game } from "./components/Game";
+import "./style/Game.css";
+
 function App() {
-  return <div>"Start code here"</div>;
+  return <div>
+       <Game />
+    </div>;
 }
 
 export default App;

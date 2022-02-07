@@ -9,6 +9,20 @@
       "gamedesc": "Titanfall is a series of video games that mainly feature first-person shooter games",
       "gamerating": "5",
       "id": 1
+    },
+    {
+      "gamename": "mario",
+      "gameauthor": "the mario Desuza",
+      "gametags": "AWI",
+      "gameprice": "599",
+      "id": 3
+    },
+    {
+      "gamename": "pubg",
+      "gameauthor": "prabhanjan",
+      "gametags": "social",
+      "gameprice": "3000",
+      "id": 4
     }
   ]
 }
