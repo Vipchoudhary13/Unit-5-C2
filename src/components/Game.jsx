@@ -22,7 +22,7 @@ export const Game = () => {
         getData()
     }, [page]);
 
-    const getData = async () => {
+    async function getData () {
         await fetch(`http://localhost:3001/games?_page=${page}&_limit=2)`)
            .then(res => res.json())
            .then(data => {setGame(data)})
